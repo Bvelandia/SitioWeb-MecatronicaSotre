@@ -275,7 +275,7 @@ header {
 .contenido-educacion {
     padding: 2rem;
     max-width: 1000px;
-    margin: auto;
+    margin: 0;
   }
   
   .contenido-educacion h2 {
