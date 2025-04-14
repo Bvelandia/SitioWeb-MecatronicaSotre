@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Educación | MecaStore</title>
+  <link rel="stylesheet" href="estilos/styles.css" />
+  <link rel="shortcut icon" href="img/logosinfondo.png" />
+</head>
+<body>
+  <header>
+    <!-- Reutilizamos el mismo nav del index -->
+    <div class="container nav-container">
+      <div class="logo">
+        <img src="img/logo.png" alt="MecaStore Logo" />
+        <h1>MecaStore</h1>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="educacion.html" class="activo">Educación</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenido-educacion">
+    <h2>Sección Educativa</h2>
+
+    <section class="tema">
+      <h3>⚡ Ley de Ohm</h3>
+      <p>Explicación básica sobre la Ley de Ohm y cómo aplicarla en circuitos eléctricos.</p>
+      <iframe width="1014" height="374" src="https://www.youtube.com/embed/_ZICyi2lOd8" title="Ley de Ohm Explicada" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section class="tema">
+      <h3>🔧 Configuración Arduino UNO</h3>
+      <p>Guía paso a paso para instalar y configurar Arduino UNO.</p>
+      <iframe width="1014" height="374" src="https://www.youtube.com/embed/pyTaaM34EBc" title="⬇️👉Descargar e Instalar ARDUINO IDE 2024 ( WINDOWS 11 , 10)| para PC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section class="tema">
+      <h3>📏 Sensor Ultrasónico</h3>
+      <p>Cómo conectar y programar un sensor ultrasónico HC-SR04 con Arduino.</p>
+      <iframe width="1014" height="374" src="https://www.youtube.com/embed/mlw3APOUt8U" title="Arduino desde cero en Español - Capítulo 5 - HC-SR04 Sensor Ultrasónico (y uso del Monitor Serial)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+  </main>
+
+   <!-- Footer -->
+   <footer>
+    <div class="container">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>MecaStore</h3>
+                <p>Tu tienda especializada en componentes electrónicos y mecatrónicos para proyectos de todos los niveles.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="educacion.html">Centro Educativo</a></li>
+                    <li><a href="about.html">Sobre Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Categorías</h3>
+                <ul class="footer-links">
+                    <li><a href="productos.html?cat=arduino">Arduino</a></li>
+                    <li><a href="productos.html?cat=raspberry">Raspberry Pi</a></li>
+                    <li><a href="productos.html?cat=sensores">Sensores</a></li>
+                    <li><a href="productos.html?cat=motores">Motores</a></li>
+                    <li><a href="productos.html?cat=kits">Kits de Robótica</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Suscríbete para recibir noticias sobre nuevos productos y tutoriales.</p>
+                <form id="newsletter-form">
+                    <div class="form-group">
+                        <input type="email" placeholder="Tu email" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 MecatronicaStore. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>

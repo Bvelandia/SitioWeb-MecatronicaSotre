@@ -18,6 +18,12 @@ const toggleBtn = document.querySelector('.mobile-toggle');
   
 
 
+
+
+
+
+
+
 // Función para inicializar todos los event listeners
 function initEventListeners() {
     // Menú móvil

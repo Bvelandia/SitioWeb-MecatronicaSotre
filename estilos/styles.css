@@ -272,6 +272,41 @@ header {
     margin-top: 10px;
 }
 
+.contenido-educacion {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .contenido-educacion h2 {
+    text-align: center;
+    color: #1c1f3b;
+  }
+  
+  .tema {
+    margin: 2rem 0;
+    background: #1f1f2e;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+  }
+  
+  .tema h3 {
+    color: #fffffe;
+  }
+  
+  .tema p {
+    color: #94a1b2;
+  }
+  
+  .tema iframe {
+    width: 100%;
+    height: 360px;
+    margin-top: 1rem;
+    border-radius: 10px;
+  }
+ 
+
 /* Formulario de contacto */
 .contact-section {
     padding: 60px 0;
